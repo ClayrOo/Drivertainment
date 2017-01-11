@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: Drivertainment
+  name: Drivertainment-Driver
+  memory: 64M
+  stack: cflinuxfs2

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Deloitte - Automotive Demo</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js"></script>
+		<script src="actionScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		
+		
+		
+	</head>
+
+	<body>
+
+		<div style="position:fixed; height: 100%; width: 100%; top:0;left 0;">
+			<img id="carImage" src='ImagesNew/Carisoff.jpg' style="background-size:cover" usemap="#clickMap"/>
+		</div>
+
+
+
+		<map name="clickMap">
+			<area class="button" id="speedButton" shape="poly" coords="554,737,567,644,581,626,602,625,588,736" href="" alt="speed">
+			<area class="button" id="brakeButton" shape="poly" coords="392,612,405,612,430,654,431,735,388,728" href="" alt="brake">
+			<area class="button" id="honkButton"  shape="circle" coords="500,593,60" href="" alt="honk">
+			<area class="button" id="startstopButton" shape="poly" coords="585,547,647,561,657,577,657,599,596,598" href="" alt="startstop">
+		</map> 
+		<p id="speedDisplay"></p>
+		<div id ="screen">
+			<img id="screenImage" src="images/traffic.png" />
+		</div>
+	</body>
+</html>

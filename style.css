@@ -1,0 +1,17 @@
+#speedDisplay{
+	position: absolute;
+	color: red;
+	font-size: 50px;
+	font-weight: bold;
+	background-color:black;
+}
+
+#screen{
+	position: absolute;
+	visibility : hidden;
+}
+
+body{
+	margin-left : 0;
+	padding-left : 0;
+}
